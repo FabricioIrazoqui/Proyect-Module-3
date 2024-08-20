@@ -1,0 +1,30 @@
+.container{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 6em;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 
+    -5px -5px 10px rgba(255, 255, 0, 0.8),
+    5px 5px 10px rgba(255, 255, 0, 0.8) ;
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        div{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        img{
+            width: 50%;
+            min-width: 270px;
+        }
+    }
+}

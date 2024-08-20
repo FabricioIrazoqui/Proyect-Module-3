@@ -1,0 +1,114 @@
+.container {
+    width: 95%;
+    min-height: 80vh;
+    margin: 0 auto;
+    margin-top: 6em;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-color: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 
+    -5px -5px 10px rgba(255, 255, 0, 0.8),
+    5px 5px 10px rgba(255, 255, 0, 0.8) ;
+}
+
+.list {
+
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2em;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #df1818;
+    border-bottom: 2px solid #fff;
+    
+    div{
+        width: 95%;
+        padding: 5px;
+        margin: 10px;
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        span{
+            margin-left: 20px;
+        }
+    }
+}
+
+.form {
+    width: 95%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 6em;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-color: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 
+    -5px -5px 10px rgba(255, 255, 0, 0.8),
+    5px 5px 10px rgba(255, 255, 0, 0.8) ;
+
+    input[type="date"],
+    select{
+        width: 50%;
+        font-weight: 400;
+        margin: 10px;
+        color: white;
+        padding: 5px;
+        border: 2px solid yellow;
+        background-color: rgba(255, 255, 0, 0.5);
+        border-radius: 4px; 
+        &:hover, &:active{
+            background-color: #000;
+            color: #fff;
+        }
+}}
+.button{
+    font-weight: bolder;
+        width: 25%;
+        border: 2px solid rgba(255, 0, 0, 0.8);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 2em auto;
+        transition: 0.3s;
+        &:hover {
+                background-color: #000;
+                border: 2px solid rgba(255, 255, 0, 0.5);
+                color: #fff;
+                font-weight: bolder;
+                box-shadow: 
+                -5px -5px 10px rgba(255, 255, 255, 0.8),
+                5px 5px 10px rgba(255, 255, 255, 0.8) ;
+            }
+    }
+
+.buttonAppointment{
+    margin: 10px
+}
+
+.confirmation{
+    width: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    box-shadow: 
+        -5px -5px 10px rgba(255, 255, 255, 0.8),
+        5px 5px 10px rgba(255, 255, 255, 0.8);
+}
